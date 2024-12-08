@@ -1,0 +1,657 @@
+/* @media screen and ( min-width: 1200px){
+    .container ul {
+        display: flex;
+        flex-direction: row;
+    }
+} */
+@media screen and (min-width: 1250px) and (max-width: 1300px) {
+    .circle{
+        padding-top: 50px;
+        width: 1400px;
+        left: -50px;
+        top: -350px;
+    }
+    .name {
+        left: 600px;
+        top: 20px;
+    }
+    .h_container{
+        top: 30px;
+        left: 250px;
+    }
+    .menu_container{
+        width: 800px;
+        margin-left: 100px;
+    }
+    .bur{
+        margin-left: 100px;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1250px) {
+    .circle{
+        padding-top: 50px;
+        width: 1400px;
+        left: -80px;
+        top: -400px;
+    }
+    .name {
+        position: absolute;
+        left: 0px;
+        top: 20px;
+    }
+    h1.h{
+        position: relative;
+        left: 538px;
+    }
+    .container_body{
+        margin-left: 10px;
+    }
+    .embl{
+        margin-left: 545px;
+    }
+    .h_container{
+        top: 30px;
+        left: 250px;
+    }
+    .bg_img{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .bg_img img{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: 20px;
+    }
+    .title_text{
+        width: 400px;
+        font-size: 40px;
+    }
+    header p{
+        font-size: 14px;
+        margin-left: -180px;
+    }
+    nav ul{
+        margin-left: 0px;
+        margin-top: -330px;
+        overflow-x: hidden;
+    }
+    nav ul li{
+        margin-left: 20px;
+    }
+    .cosh{
+        margin-left: 30px;
+    }
+    footer{
+        margin-left: 50px;
+    }
+    ul.footer li:nth-child(2){
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+    ul.footer li:nth-child(3){
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+    .wrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu_container{
+        width: 1000px;
+    }
+    .container_body{
+        margin-left: 100px;
+    }
+}
+nav ul {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    height: 60px;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1100px){
+    .circle{
+        padding-top: 50px;
+        width: 1100px;
+        left: -200px;
+        top: -400px;
+    }
+    .name {
+        left: 0;
+        top: 20px;
+    }
+    h1.h{
+        position: relative;
+        left: 448px;
+    }
+    .embl{
+        margin-left: 450px;
+    }
+    .h_container{
+        top: 30px;
+        left: 150px;
+    }
+    .bg_img{
+        margin-top: 25px;
+    }
+    .bg_img img{
+        width: 250px;
+        height: 250px;
+        margin-left: 10px;
+    }
+    .title_text{
+        width: 400px;
+        font-size: 40px;
+    }
+    header p{
+        font-size: 14px;
+        margin-left: -180px;
+    }
+    nav ul{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        height: 60px;
+        width: 900px;
+        margin-left: -10px;
+        margin-top: -330px;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        
+    }
+    nav ul li{
+        margin-left: 40px;
+    }
+    .cosh{
+        margin-left: 30px;
+    }
+    ul.footer li:nth-child(2){
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+    ul.footer li:nth-child(3){
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    .wrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu_container{
+        width: 1000px;
+    }
+    .container_body{
+        margin-left: 10px;
+    }
+    footer{
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    .circle{
+        padding-top: 50px;
+        width: 950px;
+        left: -270px;
+        margin-top: -50px;
+    }
+    .name {
+        left: 0;
+        top: 50px;
+    }
+    h1.h{
+        position: relative;
+        left: 360px;
+    }
+    .embl{
+        margin-left: 365px;
+    }
+    .h_container{
+        top: 40px;
+        left: 320px;
+        flex-direction: column-reverse;
+    }
+    .bg_img{
+        margin-top: -10px;
+    }
+    .bg_img img{
+        width: 200px;
+        height: 200px;
+        margin-left: -30px;
+    }
+    .title_text{
+        width: 300px;
+        font-size: 30px;
+        text-align: center;
+        line-height: 1.8;
+        letter-spacing: 1px;
+        margin-top: 40px;
+        margin-left: -20px;
+    }
+    header p{
+        font-size: 14px;
+        margin-top: 30px;
+        margin-left: -30px;
+    }
+    nav ul{
+        margin-left: 10px;
+        margin-top: -260px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        height: 60px;
+        width: 800px;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+    nav ul li{
+        margin-left: 20px;
+    }
+    .cosh{
+        width: 280px;
+        margin-left: 200px;
+        margin-right: 50px;
+    }
+    .but_cart{
+        width: 280px;
+    }
+    .length{
+        left: 10px;
+    }
+    .menu{
+        margin-left: -25px;
+    }
+    .card{
+        margin-bottom: 200px;
+    }
+    footer{
+        margin-left: 130px;
+    }
+    ul.footer li:nth-child(2){
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    ul.footer li:nth-child(3){
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+    .wrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu_container{
+        width: 1000px;
+    }
+    .left{
+        position: relative;
+        left: 40px;
+    }
+    footer{
+        margin-top: 50px;
+    }
+    p.p_left{
+        margin-left: 120px;
+    }
+    .ph_left{
+        position: relative;
+        left: 50px;
+    }
+    .social_left{
+        position: relative;
+        left: 60px;
+    }
+    ul.footer{
+        position: relative;
+        margin-left: 100px;
+        width: 400px;
+    }
+    .container_body{
+        margin-left: 120px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    .circle{
+        padding-top: 50px;
+        width: 1000px;
+        left: -280px;
+        margin-top: -30px;
+    }
+    .name {
+        left: 0;
+        top:40px;
+    }
+    h1.h{
+        position: relative;
+        left: 350px;
+    }
+    .embl{
+        margin-left: 355px;
+    }
+    .h_container{
+        top: 40px;
+        left: 315px;
+        flex-direction: column-reverse;
+    }
+    .bg_img{
+        margin-top: -10px;
+    }
+    .bg_img img{
+        width: 200px;
+        height: 200px;
+        margin-left: -30px;
+    }
+    .title_text{
+        width: 300px;
+        font-size: 30px;
+        text-align: center;
+        line-height: 1.8;
+        letter-spacing: 1px;
+        margin-top: 40px;
+        margin-left: -20px;
+    }
+    header p{
+        font-size: 14px;
+        margin-top: 30px;
+        margin-left: -30px;
+    }
+    nav ul{
+        margin-left: 10px;
+        margin-top: -260px;
+    }
+    nav ul li{
+        margin-left: 20px;
+    }
+    .cosh{
+        width: 280px;
+        margin-left: 200px;
+    }
+    .but_cart{
+        width: 280px;
+    }
+    .length{
+        left: 10px;
+    }
+    .menu{
+        margin-left: -25px;
+    }
+    .card{
+        margin-bottom: 200px;
+    }
+    ul.footer li:nth-child(2){
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    ul.footer li:nth-child(3){
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+    .wrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu_container{
+        width: 1000px;
+    }
+    .left{
+        position: relative;
+        left: 40px;
+    }
+    footer{
+        margin-top: 50px;
+    }
+    p.p_left{
+        margin-left: 120px;
+    }
+    .ph_left{
+        position: relative;
+        left: 50px;
+    }
+    .social_left{
+        position: relative;
+        left: 60px;
+    }
+    ul.footer{
+        position: relative;
+        margin-left: 100px;
+        width: 400px;
+    }
+} 
+@media screen and (max-width: 800px) {
+    .circle{
+        padding-top: 50px;
+        width: 800px;
+        left: -320px;
+        margin-top: -30px;
+    }
+    .name {
+        left: 0;
+        top:40px;
+    }
+    h1.h{
+        position: absolute;
+        left: 300px;
+    }
+    .embl{
+        margin-left: 435px;
+    }
+    .h_container{
+        top: 40px;
+        left: 260px;
+        flex-direction: column-reverse;
+    }
+    .bg_img{
+        margin-top: -10px;
+    }
+    .bg_img img{
+        width: 200px;
+        height: 200px;
+        margin-left: -30px;
+    }
+    .title_text{
+        width: 300px;
+        font-size: 30px;
+        text-align: center;
+        line-height: 1.8;
+        letter-spacing: 1px;
+        margin-top: 40px;
+        margin-left: -20px;
+    }
+    header p{
+        font-size: 14px;
+        margin-top: 30px;
+        margin-left: -30px;
+    }
+    nav ul{
+        margin-left: -10px;
+        margin-top: -260px;
+        width: 700px;
+    }
+    nav ul li{
+        margin-left: 10px;
+    }
+    .cosh{
+        width: 280px;
+        margin-left: 200px;
+    }
+    .but_cart{
+        width: 280px;
+    }
+    .length{
+        left: 10px;
+    }
+    .menu{
+        margin-left: -25px;
+    }
+    .card{
+        margin-bottom: 200px;
+    }
+    ul.footer li:nth-child(2){
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    ul.footer li:nth-child(3){
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+    .wrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu_container{
+        width: 1000px;
+    }
+    .left{
+        position: relative;
+        left: 40px;
+    }
+    footer{
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    p.p_left{
+        margin-left: 120px;
+    }
+    .ph_left{
+        position: relative;
+        left: 50px;
+    }
+    .social_left{
+        position: relative;
+        left: 60px;
+    }
+    ul.footer{
+        position: relative;
+        margin-left: 100px;
+        width: 400px;
+    }
+    .container_body{
+        flex-direction: column-reverse;
+        margin-left: 50px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .circle{
+        padding-top: 50px;
+        width: 700px;
+        left: -380px;
+        margin-top: -50px;
+    }
+    .name {
+        left: 0;
+        top:45px;
+    }
+    h1.h{
+        position: absolute;
+        left: 245px;
+    }
+    .embl{
+        margin-top: 5px;
+        margin-left: 375px;
+    }
+    .h_container{
+        top: 40px;
+        left: 200px;
+        flex-direction: column-reverse;
+    }
+    .bg_img{
+        margin-top: -10px;
+    }
+    .bg_img img{
+        width: 200px;
+        height: 200px;
+        margin-left: -30px;
+    }
+    .title_text{
+        width: 300px;
+        font-size: 30px;
+        text-align: center;
+        line-height: 1.8;
+        letter-spacing: 1px;
+        margin-top: 40px;
+        margin-left: -20px;
+    }
+    header p{
+        font-size: 14px;
+        margin-top: 30px;
+        margin-left: -30px;
+    }
+    nav ul{
+        margin-left: -10px;
+        margin-top: -260px;
+        width: 600px;
+    }
+    nav ul li{
+        margin-left: 10px;
+    }
+    .cosh{
+        width: 280px;
+        margin-left: 200px;
+    }
+    .but_cart{
+        width: 280px;
+    }
+    .length{
+        left: 10px;
+    }
+    .menu{
+        margin-left: -45px;
+    }
+    .card{
+        margin-bottom: 200px;
+    }
+    ul.footer li:nth-child(2){
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    ul.footer li:nth-child(3){
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+    .wrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu_container{
+        width: 1000px;
+    }
+    .left{
+        position: relative;
+        left: 40px;
+    }
+    footer{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    p.p_left{
+        margin-left: 120px;
+    }
+    .ph_left{
+        position: relative;
+        left: 50px;
+    }
+    .social_left{
+        position: relative;
+        left: 60px;
+    }
+    ul.footer{
+        position: relative;
+        margin-left: 100px;
+        width: 400px;
+    }
+    .container_body{
+        flex-direction: column-reverse;
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1, 
+        "name": "Мясная бомба", 
+        "massa": 520 , 
+        "price": 689 , 
+        "image": "./img/brg1.png"
+    },
+    { 
+        "id": 2, 
+        "name": "Супер сырный", 
+        "massa": 512, 
+        "price": 550, 
+        "image": "./img/brg2.png"
+    },
+    {
+        "id": 3, 
+        "name": "Сытный", 
+        "massa": 580 ,
+        "price": 639, 
+        "image": "./img/brg3.png"
+    },
+    {
+        "id": 4, 
+         "name": "Тяжелый удар", 
+         "massa": 470 , 
+         "price": 480 , 
+         "image": "./img/brg4.png"
+    },
+    { 
+        "id": 5, 
+        "name": "Вечная классика", 
+        "massa": 450, 
+        "price": 450, 
+        "image": "./img/brg5.png"
+    },
+    { 
+        "id": 6,
+        "name": "Итальянский", 
+        "massa": 510, 
+        "price": 560, 
+        "image": "./img/brg6.png"
+    }
+]
