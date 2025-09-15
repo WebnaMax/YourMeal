@@ -41,7 +41,7 @@ const restArray = [
     weight: '510г',
     image: 'brg6.png',
   },
-];
+]
 
 const cartItems = [];
 
