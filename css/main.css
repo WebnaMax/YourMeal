@@ -169,7 +169,11 @@ nav ul li a:hover{
 .cosh{
     background: rgba(255, 255, 255, 1);
     width: 300px;
+<<<<<<< HEAD
     max-height: 300px;
+=======
+    height: 470px;
+>>>>>>> 26ce2ec8244da6b7bccb3d783d332a317cc88487
     margin-left: 80px;
     margin-top: 100px;
     border-radius: 15px;
@@ -243,16 +247,33 @@ hr.line{
     left: 0px;
     display: block; 
     width: 100%;
+=======
+    top: -20px;
+    left: 0px;
+    display: block; 
+    width: 500px;
+    height: 0px;
+>>>>>>> 26ce2ec8244da6b7bccb3d783d332a317cc88487
 }
 .cart_massa{
     color: rgb(179, 179, 183);
     position: relative;
+<<<<<<< HEAD
     left: 0;
+=======
+    left: -78px;
+    top: 20px;
+>>>>>>> 26ce2ec8244da6b7bccb3d783d332a317cc88487
     font-size: 12px;
 }
 .cart_price{
     position: relative;
+<<<<<<< HEAD
     left: 0px;
+=======
+    left: -104px;
+    top: 40px;
+>>>>>>> 26ce2ec8244da6b7bccb3d783d332a317cc88487
     font-size: 16px;
 }
 .length{
@@ -266,9 +287,14 @@ hr.line{
     line-height: 30px;
     align-items: center;
     position: relative;
+<<<<<<< HEAD
     top: 15px;
     margin-left: auto;
     margin-right: 10px;
+=======
+    left: -10px;
+    top: 15px;
+>>>>>>> 26ce2ec8244da6b7bccb3d783d332a317cc88487
 }
 .minus{
     margin-right: 5px;
@@ -322,6 +348,10 @@ p.inf{
 }
 .end{
     position: relative;
+<<<<<<< HEAD
+=======
+    margin-top: 190px;
+>>>>>>> 26ce2ec8244da6b7bccb3d783d332a317cc88487
 }
 /* -----------------------CART---------------- */
 .card{
@@ -363,7 +393,7 @@ p.massa{
     cursor: pointer;
     font-size: 16px;
     font-weight: 400;
-    transition: background 2 ease;
+    transition: background .2s ease;
 }
 
 .add{
